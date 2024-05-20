@@ -96,3 +96,6 @@ button {
     border-radius: 15px;
 }
 
+h3 {
+    cursor: not-allowed;
+}
