@@ -15,3 +15,7 @@ function divColorAdded() {
         div.innerText=div.style.backgroundColor=generateColor();
     });
 }
+
+divColorAdded(); // Immediate call for color generation
+
+refreshBtn.addEventListener('click',divColorAdded);
