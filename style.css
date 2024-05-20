@@ -94,6 +94,7 @@ button {
 
 .color {
     border-radius: 15px;
+    cursor: grab;
 }
 
 h3 {
