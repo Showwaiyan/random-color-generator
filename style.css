@@ -88,6 +88,8 @@ button {
     border: none;
     background-color: var(--secondary-color);
     border-radius: 15px;
+
+    cursor: pointer;
 }
 
 .color {
