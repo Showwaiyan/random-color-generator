@@ -1,4 +1,5 @@
 const colorBlocks = document.querySelectorAll('.color');
+const refreshBtn = document.querySelector('.refresh-btn');
 
 // Color Code Generation
 
@@ -8,6 +9,9 @@ function generateColor() {
     return '#'+colorCode;
 }
 
-colorBlocks.forEach(div=>{
-    div.innerText=div.style.backgroundColor=generateColor();
-});
+// Div color added
+function divColorAdded() {
+    colorBlocks.forEach(div=>{
+        div.innerText=div.style.backgroundColor=generateColor();
+    });
+}
