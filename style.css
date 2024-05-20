@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* Variable */
+:root{
+    --main-theme: #240750;
+    --secondary-color: #344C64;
+    --spare-color: #577B8D;
+}
+
 /* Layout */
 
 /* Typography */
