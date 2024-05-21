@@ -40,7 +40,7 @@ section.buttons {
 }
 button {
     height: 100%;
-    width: 10%;
+    width: 20%;
 }
 
 section.colors {
@@ -101,7 +101,7 @@ h3 {
     cursor: not-allowed;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
     html {
         font-size: 12px;
     }
