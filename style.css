@@ -100,3 +100,12 @@ button {
 h3 {
     cursor: not-allowed;
 }
+
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column-reverse;
+    }
+    section.colors {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
