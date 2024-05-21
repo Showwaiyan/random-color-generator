@@ -107,8 +107,12 @@ h3 {
     }
     main {
         flex-direction: column-reverse;
+        justify-content: space-between;
     }
     section.colors {
         grid-template-columns: repeat(3,1fr);
+    }
+    button {
+        width: 30%;
     }
 }
